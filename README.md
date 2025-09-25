@@ -14,10 +14,10 @@ References:
 - Guillaume, D. (2022) Machine learning and combinatorial optimization algorithms, with applications to railway planning. Unpublished PhD thesis. École des Ponts ParisTech.
 - Storopoli, J., Huijzer, R., Alonso, L. (2021) Julia Data Science. Available at: https://juliadatascience.io. ISBN: 9798489859165. Accessed 8 Jan 2025.
 
-##Usage
+## Usage
 All are warmly encouraged to use these examples freely and to modify them in accordance with the licence governing this repository.
 
-##Contributing
+## Contributing
 Any member of the Julia Special Interest Group (JuliaSIG) is welcome to contribute to this project.
 
 ## Authors and Acknowledgements
