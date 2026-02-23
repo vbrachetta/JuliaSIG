@@ -32,7 +32,7 @@ Julia docstrings:
 
 ## Official Documentation
 
-For the complete reference, see the Julia documentation:
+For further guidance, please see the Julia documentation:
 
 - https://docs.julialang.org/en/v1/manual/documentation/
 
