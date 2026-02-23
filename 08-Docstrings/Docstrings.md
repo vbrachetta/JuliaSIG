@@ -1,12 +1,14 @@
-## Julia docstring conventions
+# Julia docstring conventions
 
-+ Written in Markdown
-+ Placed immediately before the object they document
-+ Start with a one-line summary using the function signature
-+ Follow with:
-	+ Description
-	+ Arguments (if non-trivial)
-	+ Examples (using julia> REPL style)
-	+ Notes / performance / edge cases (optional)
+Julia docstrings:
 
-Julia’s help system (?function_name) renders this automatically.
+- Are written in Markdown
+- Are placed *immediately before* the function / type they document
+- Begin with a one-line summary using the function signature
+- Then optionally include:
+  - A short description
+  - Arguments section (if needed)
+  - Examples using `julia>` REPL style
+  - Notes about performance or edge cases
+
+Docstrings appear when you type `?function_name` in the Julia REPL.
