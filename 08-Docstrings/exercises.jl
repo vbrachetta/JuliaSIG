@@ -1,7 +1,6 @@
 # exercises.jl
-# This file gives you the opportunity to improve the following docstrings.
+# Improve the following docstrings.
 # Refer to Docstrings.md or the examples in this directory for ideas.
-
 
 # Exercise 1: Improve this docstring.
 """
