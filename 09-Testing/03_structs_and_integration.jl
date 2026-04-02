@@ -19,7 +19,7 @@ function withdraw(account::BankAccount, amount)
 end
 
 @testset "BankAccount tests" begin
-    acc = BankAccount("Alice", 100.0)
+    acc = BankAccount("Julia", 100.0)
 
     acc2 = deposit(acc, 50.0)
     @test acc2.balance == 150.0
@@ -35,7 +35,7 @@ end
 
 # Integration-style test
 @testset "Workflow test" begin
-    acc = BankAccount("Bob", 200.0)
+    acc = BankAccount("Julian", 200.0)
     acc = deposit(acc, 100.0)
     acc = withdraw(acc, 50.0)
 

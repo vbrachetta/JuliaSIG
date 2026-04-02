@@ -6,7 +6,7 @@ using Test
 @test 2 * 3 == 6
 @test 10 / 2 == 5
 
-# A failing test (please comment back in to see what happens)
+# A failing test (please comment back in to see how Julia reports a failure)
 # @test 1 + 1 == 3
 
 # Grouping tests with @testset
@@ -16,5 +16,6 @@ using Test
     @test sqrt(9) == 3
 end
 
-# Approximate equality (important for floats)
+# Approximate equality (important when handling floating point numbers)
 @test isapprox(0.1 + 0.2, 0.3; atol=1e-8)
+@test 0.1 + 0.2 ≈ 0.3

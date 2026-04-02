@@ -28,5 +28,6 @@ end
 @testset "normalise_name tests" begin
     @test normalise_name(" Hello ") == "hello"
     @test normalise_name("Julia") == "julia"
+    @test normalise_name("  HELLO JULIA  ") == "hello julia"
     @test normalise_name("") == ""
 end
