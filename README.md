@@ -20,23 +20,23 @@ References:
 The numbered directories reflect a suggested order that starts with introductory material and moves towards more practical and applied topics. Users are welcome to follow this order or jump directly to sections of interest, depending on their background and needs.
 
 ### Core Julia Language
-01-Basic  
-02-Fundamentals  
-03-ControlStructures  
-04-Functions  
+- 01-Basic  
+- 02-Fundamentals  
+- 03-ControlStructures  
+- 04-Functions  
 
 These sections introduce the core syntax and programming concepts required to work effectively in Julia.
 
 ### Working with Data
-05-FileHandling  
-06-DataVisualisation  
+- 05-FileHandling  
+- 06-DataVisualisation  
 
 These tutorials focus on reading, writing, and visualising data in typical research workflows.
 
 ### Development Tools and Best Practices
-07-JupyterNotebooks  
-08-Docstrings  
-09-Testing  
+- 07-JupyterNotebooks  
+- 08-Docstrings  
+- 09-Testing  
 
 These sections cover interactive workflows, documentation, and software engineering best practices for Julia projects.
 
