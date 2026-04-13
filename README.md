@@ -14,6 +14,33 @@ References:
 - Guillaume, D. (2022) Machine learning and combinatorial optimization algorithms, with applications to railway planning. Unpublished PhD thesis. École des Ponts ParisTech.
 - Storopoli, J., Huijzer, R., Alonso, L. (2021) Julia Data Science. Available at: https://juliadatascience.io. ISBN: 9798489859165. Accessed 8 Jan 2025.
 
+
+## Tutorial Structure
+
+The numbered directories reflect a suggested order that starts with introductory material and moves towards more practical and applied topics. Users are welcome to follow this order or jump directly to sections of interest, depending on their background and needs.
+
+### Core Julia Language
+01-Basic  
+02-Fundamentals  
+03-ControlStructures  
+04-Functions  
+
+These sections introduce the core syntax and programming concepts required to work effectively in Julia.
+
+### Working with Data
+05-FileHandling  
+06-DataVisualisation  
+
+These tutorials focus on reading, writing, and visualising data in typical research workflows.
+
+### Development Tools and Best Practices
+07-JupyterNotebooks  
+08-Docstrings  
+09-Testing  
+
+These sections cover interactive workflows, documentation, and software engineering best practices for Julia projects.
+
+
 ## Usage
 All are warmly encouraged to use these examples freely and to modify them in accordance with the licence governing this repository.
 
