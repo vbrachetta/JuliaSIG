@@ -1,4 +1,4 @@
-using Statistics
+using Statistics # this imports the Statistics package
 
 a = 1
 b = 2
